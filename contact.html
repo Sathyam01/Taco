@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact information for Little Taco Shop">
+    <title>Contact Us-LTS</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header--h1">Little Taco Shop</h1>
+        <nav class="header--nav">
+            <ul class="header--ul">
+            
+                <li><a href="/">Home</a></li>
+            
+                <li><a href="/#menu">Menu</a></li>
+            
+                <li><a href="hours.html">Hours</a></li>
+
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+
+        <figure>
+            <img src="tacosup.png" alt="Little Taco Shop Tacos" title="Tacos ready to eat" height="649px" width="1000px">
+            <figcaption class="offscreen">Little Taco Shop Tacos</figcaption>
+        </figure>
+
+    </section>
+   
+    <main class="main">
+        <article class="main--article contact" >
+            <h2>Our Loctaion</h2>
+            <address>
+                Budigere cross, banagalore, 560049
+                <br><br>
+                phone: <a href="tel:+8431848437">84318484837</a>
+            </address>
+        </article>
+        <article class="main--article">
+        <h2 class="contact--h2">
+            Our Contact form
+        </h2>
+        <form action="http://httpbin.org/get" method="get" class="contact--form">
+            <fieldset class="contact--fieldset">
+                <legend class="offscreen">Send Us a Messege</legend>
+                <p class="contact--p">
+                    <label class="contact--label" for="name">Name:</label>
+                    <input class="contact--input" type="text" name="name" id="name" placeholder="your name required" >
+                </p>
+                <p>
+                    <label class="contact--label" for="email">Email:</label>
+                    <input class="contact--input" type="email" name="email" id="email" placeholder="your Email" >
+                </p>
+                <p><label class="contact--label" for="messege">Your messege:</label>
+                    <br>
+                    <textarea class="contact--textarea" name="messge" id="messge" cols="30" rows="10" placeholder="Type your messege"></textarea>
+                </p>
+            </fieldset>
+            <button class="contact--button" type="submit">Send</button>
+            <button class="contact--button" type="submit">Reset</button>
+        </form>
+    </article>
+      
+    </main>
+    <footer class="footer">
+        <p>
+         <span>Copyright &copy;</span>
+            
+         <span>Little Taco Shop</span>
+        </p>
+    </footer>
+</body>
+</html>
